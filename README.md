@@ -1,1 +1,1 @@
-adfavsdasfz
+19/02/2026 19:52 - só criei uma base para explorar mais minha ideia
