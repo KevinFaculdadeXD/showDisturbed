@@ -3,17 +3,99 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Disturbed - comprar ingresso</title>
     </head>
 
     <body>
-        <h1>INGRESSOS SHOW DISTURBED - GUARAPUAVA</h1>
-        <img src="/1900x1900-000000-80-0-0.jpg">
-        <h2>comprar ingressos aqui, insira seus dados:</h2>
-        <form id="fromCadastro">
-            <label for="">Nome:</label>
-            <input type="text" name="a" id="a"
-            placeholder="insira seu nome" required
-        </form>
+        <header>
+            <br>
+            <img src="/Disturbed-Logo-2008.png" class="logoDisturbed" alt="logo disturbed">
+            <h1>INGRESSOS SHOW DISTURBED - GUARAPUAVA</h1>
+            <h2>Venha presencial uma das maiores bandas de Nu-metal em Guarapuava - PR</h2>
+            <br>
+        </header>
+            <main>
+                <section>
+            <div class="cards">
+                <div class="card">
+                    <img src="/TheSickness.jpg" alt="The Sickness">
+                </div>
+                <div class="card">
+                    <img src="/Ten Thousand Firts.jpg" alt="The Sickness">
+                </div>
+                <div class="card">
+                    <img src="/Believe.jpg" alt="The Sickness">
+                </div>
+                <div class="card">
+                    <img src="/Asylum.jpeg" alt="The Sickness">
+                </div>
+                <div class="card">
+                    <img src="/Indestructible.jpg" alt="The Sickness">
+                </div>
+                <div class="card">
+                    <img src="/Immortalized.jpg" alt="The Sickness">
+                </div>
+            </div>
+                </section>
+            </main>
+            <br>
+        <p>Prepare-se para viver uma das noites mais intensas da história do rock e do metal em Guarapuava! Quando as luzes se apagam e os graves começam a pulsar pelo ar, a energia contagiante da banda Disturbed toma conta do público. Com um repertório que mistura clássicos inesquecíveis como Down with the Sickness, Stricken e The Sound of Silence em versões poderosas, o espetáculo transcende a simples apresentação musical — é uma experiência visceral que une fãs de todas as gerações.</p>
+            <br>
+        <h2>Horario do Show: 29/02/2026 19:00 no Centro de Eventos - Cidade dos Lagos</h2>
+            <br>
+        <section class="ingresso-section">
+    <h2>🔥 Garanta seu ingresso para o show em Guarapuava 🔥</h2>
+
+    <form class="form-ingresso">
+        <div class="input-group">
+            <label>Nome Completo</label>
+            <input type="text" required>
+        </div>
+
+        <div class="input-group">
+            <label>E-mail</label>
+            <input type="email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Quantidade (max: 10)</label>
+            <input type="number" min="1" max="10" required>
+        </div>
+
+        <div class="input-group">
+            <label>Setor</label>
+            <select>
+                <option>Pista: R$150,00</option>
+                <option>VIP: R$230,00</option>
+                <option>Camarote: R$500,00</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>Forma de pagamento</label>
+            <select>
+                <option>Pix</option>
+                <option>Boleto</option>
+                <option>Paypal</option>
+                <option>Crédito (parcelado em 3x)</option>
+                <option>Débito</option>
+                <option>Google Pay</option>
+                <option>Bitcoin</option>
+            </select>
+        </div>
+
+        <div class="checkbox-group">
+            <label class="checkbox-container">
+                <input type="checkbox" name="newsletter">
+                    Quero receber atualizações por e-mail sobre o show
+            </label>
+        </div>
+
+        <button type="submit" class="btn-comprar">
+            Comprar Agora
+        </button>
+    </form>
+</section>
     </body>
 </html>
